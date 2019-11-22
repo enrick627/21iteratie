@@ -28,8 +28,17 @@ namespace iteratie
                 Console.WriteLine(teller);
                 teller += 1 ;
             }
-            
 
+            teller = 0;
+            do
+            {
+                Console.WriteLine(teller++);
+            } while (teller < 5);
+
+            for (teller = 0; teller < 5; ++)
+            {
+                Console.WriteLine(teller);
+            }
 
 
             //wachten
